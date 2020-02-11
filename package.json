@@ -1,0 +1,24 @@
+{
+  "name": "pup",
+  "version": "1.0.0",
+  "description": "Pup Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit",
+    "test:snapshot": "jest --config=jest.config.js --detectOpenHandles --forceExit",
+    "test:snapshot:update": "jest --config=jest.config.js --updateSnapshot --detectOpenHandles --forceExit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "chai": "^4.2.0",
+    "jest": "^25.1.0",
+    "jest-image-snapshot": "^2.12.0",
+    "jest-puppeteer": "^4.4.0",
+    "mocha": "^7.0.1",
+    "puppeteer": "^2.0.0"
+  }
+}
